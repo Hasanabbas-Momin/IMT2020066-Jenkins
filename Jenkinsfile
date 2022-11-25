@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git "https://github.com/Hasanabbas-Momin/IMT2020066-Jenkins.git"
+                git 'https://github.com/mayankchadha16/IMT2020045_JenkinsAssignment.git'
             }
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x p.py"
-                sh "./p.py"
+                sh "chmod u+x factorial.py"
+                sh "./factorial.py"
             }
         }
         stage('Test Code Passed') {
