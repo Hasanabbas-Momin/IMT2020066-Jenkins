@@ -8,8 +8,8 @@ pipeline {
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x palindrome.py"
-                sh "./palindrome.py"
+                sh "chmod u+x p.py"
+                sh "./p.py"
             }
         }
         stage('Test Code Passed') {
