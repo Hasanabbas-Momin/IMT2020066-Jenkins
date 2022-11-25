@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def checkPalindrome(str):
+def f(str):
    
     # Run loop from 0 to len/2
     for i in range(0, len(str)//2):
