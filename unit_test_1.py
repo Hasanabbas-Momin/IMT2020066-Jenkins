@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import unittest
-from palindrome import f
+from p import f
 
 
 class TestCase(unittest.TestCase):
